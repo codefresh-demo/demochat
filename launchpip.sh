@@ -1,0 +1,2 @@
+#!/bin/bash
+curl 'https://g.codefresh.io/api/builds/5a3f9364ad100d00016cbffc' -H 'content-type:application/json; charset=utf-8'  -H 'x-access-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1YTBjNTI4OTU4NjFjYTAwMDFjYTRjNjEiLCJhY2NvdW50SWQiOiI1YTNhMmE0NDU1MTg2MTAwMDE2MzdjODciLCJpYXQiOjE1MTUzMjE5MDcsImV4cCI6MTUxNzkxMzkwN30.Wr9OFf3xOvbFKe_dDqPtfjdXW2GduiJD7OTnbWSWosQ' --data-binary '{"repoOwner":"codefresh-demo","repoName":"demochat","serviceId":"5a3f9364ad100d00016cbffc","branch":"master","type":"build"}' --compressed
