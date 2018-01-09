@@ -1,4 +1,4 @@
-![Let's Chat Greylock](https://codefresh.io/wp-content/uploads/2017/03/lets-chat.png)
+![Let's Chat Greylock](https://codefresh.io/wp-content/uploads/2017/03/lets-chat.png) 
 
 
 Use this tutorial to familiarize yourself with codefresh.yml file and Codefresh functionality.
@@ -19,13 +19,13 @@ This tutorial will walk you through the process of adding the following :
 
 * Push to registry step - that will push your image to Docker Hub
 
-* Unit Test step - A freestyle step that runs the unit test of the demo chat after the build 
+* Unit Test step - A freestyle step that runs the unit test of the demo chat after the build
 
 * Composition step - This step will create and launch a composition.
 
 So, the first thing you need to do is :
 
-## Fork our repo  
+## Fork our repo
 
 Enter the following link and fork Let’s Chat app!: ```https://github.com/containers101/demochat```
 
@@ -47,7 +47,7 @@ When you finish press ___Next___.
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/select-repo2.png)
 
 
-Select how you would like to setup your repository. In this case, our repo has a ___Dockerfile___, so we'll select the middle option. 
+Select how you would like to setup your repository. In this case, our repo has a ___Dockerfile___, so we'll select the middle option.
 
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/15.png)
@@ -92,8 +92,8 @@ Let's click ___Save___, and ___Build___ to see it in action.
 Great- the date has been printed!
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/22.png)
- 
- 
+
+
 Now let's add a full composition that also contains mongo db.
 
 
